@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+body {
+    background-color: blanchedalmond;
+    display: grid;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.container-board {
+    display: grid;
+    background-color: burlywood;
+    grid-template-columns: repeat(3, 210px);
+    grid-template-columns: repeat(3, 210px);
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+}
+
+.tile {
+    background-color:coral;
+    height: 210px;
+    width: 210px;
+}
+
+.tile:hover {
+    outline: 3px dotted olivedrab;
+}
+
